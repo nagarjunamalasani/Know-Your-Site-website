@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-CLOUD COMPUTING</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	Cloud Computing</h1>
+</div>
+
+<div id="matter">
+	
+
+
+
+Cloud computing is a virtualization-based technology that allows us to create, configure, and customize applications via an internet connection. The cloud technology includes a development platform, hard disk, software application, and database.<br>
+
+The term cloud refers to a network or the internet. It is a technology that uses remote servers on the internet to store, manage, and access data online rather than local drives. The data can be anything such as files, images, documents, audio, video, and more.<br>
+
+There are the following operations that we can do using cloud computing:<br>
+
+Developing new applications and services<br>
+Storage, back up, and recovery of data<br>
+Hosting blogs and websites<br>
+Delivery of software on demand<br>
+Analysis of data<br>
+Streaming videos and audios<br>
+
+Small as well as large IT companies, follow the traditional methods to provide the IT infrastructure. That means for any IT company, we need a Server Room that is the basic need of IT companies.<br>
+
+In that server room, there should be a database server, mail server, networking, firewalls, routers, modem, switches, QPS (Query Per Second means how much queries or load will be handled by the server), configurable system, high net speed, and the maintenance engineers.<br>
+
+To establish such IT infrastructure, we need to spend lots of money. To overcome all these problems and to reduce the IT infrastructure cost, Cloud Computing comes into existence.<br>
+
+Cloud Computing
+Characteristics of Cloud Computing
+The characteristics of cloud computing are given below:<br>
+
+1) Agility:<br>
+
+The cloud works in a distributed computing environment. It shares resources among users and works very fast.<br>
+
+2) High availability and reliability:<br>
+
+The availability of servers is high and more reliable because the chances of infrastructure failure are minimum.<br>
+
+3) High Scalability:<br>
+
+Cloud offers "on-demand" provisioning of resources on a large scale, without having engineers for peak loads.<br>
+
+4) Multi-Sharing:<br>
+
+With the help of cloud computing, multiple users and applications can work more efficiently with cost reductions by sharing common infrastructure.<br>
+
+5) Device and Location Independence:<br>
+
+Cloud computing enables the users to access systems using a web browser regardless of their location or what device they use e.g. PC, mobile phone, etc. As infrastructure is off-site (typically provided by a third-party) and accessed via the Internet, users can connect from anywhere.<br>
+
+6) Maintenance:<br>
+
+Maintenance of cloud computing applications is easier, since they do not need to be installed on each user's computer and can be accessed from different places. So, it reduces the cost also.<br>
+
+7) Low Cost:<br>
+
+By using cloud computing, the cost will be reduced because to take the services of cloud computing, IT company need not to set its own infrastructure and pay-as-per usage of resources.<br>
+
+8) Services in the pay-per-use mode:<br>
+
+Application Programming Interfaces (APIs) are provided to the users so that they can access services on the cloud by using these APIs and pay the charges as per the usage of services.<br>
+Before learning cloud computing, you must have the basic knowledge of computer fundamentals.
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.tutorialspoint.com/amazon_web_services/amazon_web_services_cloud_computing.htm"><img id="image1" src="https://brainhub.eu/blog/wp-content/uploads/2019/05/what-is-amazon-web-services.png"></a><br>
+		<a href="https://cloud.google.com/docs/overview/"><img id="image2" src="https://tse4.mm.bing.net/th?id=OIP.EBzQxSCKWX2ShP4LCPB1tQHaDf&pid=Api&P=0&w=366&h=173"></a><br>
+		<a href="https://www.ibm.com/cloud/learn/cloud-computing"><img id="image3" src="https://www.thecoinrepublic.com/wp-content/uploads/2019/03/IBM-Blockchain.jpg"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=2LaAJq1lB1Q"><img id="image3" style="width:400px" src="https://i.ytimg.com/vi/2LaAJq1lB1Q/maxresdefault.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=EN4fEbcFZ_E"><img id="image3" style="width:400px" src="https://static.asianetnews.com/images/01dm0hry8kf0mxmerxassgsd4a/img-6ca135f27d6c6ad14fcd3af0dddb1e31-1546613009584-original--1--jpg_710x400xt.jpg"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Cloud_Computing/xi-RDwAAQBAJ?hl=en&gbpv=1&dq=cloud+computing&printsec=frontcover"><img class="book"  src="https://tse1.mm.bing.net/th?id=OIP.1YfJKne7RclQq-YZqpA55QHaD4&pid=Api&P=0&w=303&h=159"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Mastering_Cloud_Computing/wqKkqHJhPJQC?hl=en&gbpv=1&dq=cloud+computing&printsec=frontcover"><img class="book" src="https://tse2.mm.bing.net/th?id=OIP.DRQPxDRIUGffvYmfXGP-9QDoEs&pid=Api&P=0&w=300&h=300"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

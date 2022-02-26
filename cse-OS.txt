@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-OS</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		.books:hover{
+			background-color: lightblue;
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	Operating Systems</h1>
+</div>
+
+<div id="matter">
+	
+
+An Operating System is the interface between the computer hardware and the end-user. Processing of data, running applications, file management and handling the memory is all managed by the computer OS. Windows, Mac, Android etc. Are examples of Operating systems which are generally used nowadays.<br>
+
+All modern computing devices including Laptops, Tablet, mobile phones, etc. comprise an Operating System which helps in the smooth working of the device.<br>
+It took years to evolve the Operating Systems and make them as modernised and advanced as they are today. Given below are the details about the evolution and history of Operating systems.<br>
+
+Initially, the computers made did not have an Operating system and to run each program a different code was used. This had made the processing of data more complex and time taking<br>
+In 1956, the first operating systems were developed by General Motors to run a single IBM computer<br>
+It was in the 1960s that IBM had started installing OS in the devices they launched<br>
+The first version of the UNIX operating system was launched in the 1960s and was written in the programming language C<br>
+Later on, Microsoft came up with their OS on the request of IBM
+Today, all major computer devices have an operating system, each performing the same functions but with slightly different features<br>
+Types of Operating System<br>
+Given below are the different types of Operating System along with  brief information about each of them:<br>
+
+1. Batch Operating System<br>
+
+There is no direct communication between the computer and the OS
+There is an intermediate, the Operator, which needs to distribute the work into batches and sort similar jobs
+Multiple users can use it
+Can easily manager a large amount of work<br>
+2. Real-Time Operating System<br>
+
+It has a data processing system
+The processing time is very small between the user’s command and the output
+Used in fields where the response needs to be quick and rapid<br>
+3. Time-Sharing Operating System<br>
+
+Multiple people at various terminals can use a program at the same time 
+The main motive is to minimize the response time<br>
+4. Distributed Operating System<br>
+
+When two or more systems are connected to each other and one can open files which are not present in their system but in other devices connected in the network
+Its usage has now increased over the years
+They use multiple central processors to serve real-time applications
+Failure of one system does not affect the other systems connected in the network<br>
+5. Embedded Operating System<br>
+
+These special Operating systems are built into larger systems
+They generally are limited to single specific functions like an ATM<br>
+6. Network Operating System<br>
+
+They have one main server which is connected to other client servers
+All the management of files, processing of data, access to sharing files, etc. are performed over this small network
+It is also a secure operating system for working with multiple users<br>
+7. Mobile Operating System<br>
+
+With the advancement in the field of technology, smartphones now are released with an Operating system. 
+They are designed in a manner that they can help a small device work efficiently
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.javatpoint.com/os-tutorial"><img id="image1" src="https://static.javatpoint.com/tutorial/vb-net/images/vb-net-picturebox-control3.png"></a><br>
+		<a href="https://www.geeksforgeeks.org/operating-systems/"><img id="image2" src="https://media.geeksforgeeks.org/wp-content/uploads/20190809013546/gfg_350X350.png"></a><br>
+		<a href="https://www.guru99.com/os-tutorial.html"><img id="image3" src="https://gaussian37.github.io/assets/img/c/linux/os/os.jpg"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=tkWDefcu3Q0"><img id="image3" style="width:400px" src="https://i.ytimg.com/vi/GclOTIeT98I/maxresdefault.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=mXw9ruZaxzQ"><img id="image3" style="width:400px" src="https://4.bp.blogspot.com/-ZmkkEoAp2oI/W3rC04zOArI/AAAAAAAAAjc/U2uffBnBzqIIm3Ta520T1K11X6VYeecOACPcBGAYYCw/s1600/OPERATING%2BSYSTEMS.jpg"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Operating_System_Concepts/s0MUQn7cxA4C?hl=en&gbpv=1&dq=operating+system&printsec=frontcover"><img class="book"  src="https://images-na.ssl-images-amazon.com/images/I/81eF-RxjuaL.jpg"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Introduction_to_Operating_Systems/HJlMDwAAQBAJ?hl=en&gbpv=1&dq=operating+system&printsec=frontcover"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/A1EavHiV1EL.jpg"></a>   
+	</section>
+</nav>
+</body>
+</html>

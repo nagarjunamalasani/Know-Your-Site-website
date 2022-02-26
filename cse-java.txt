@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-JAVA</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	JAVA</h1>
+</div>
+
+<div id="matter">
+	
+
+Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
+<br>
+
+According to Sun, 3 billion devices run Java. There are many devices where Java is currently used. Some of them are as follows:
+
+Desktop Applications such as acrobat reader, media player, antivirus, etc.
+Web Applications such as irctc.co.in, javatpoint.com, etc.<br>
+Enterprise Applications such as banking applications.<br>
+Mobile<br>
+Embedded System<br>
+Smart Card<br>
+Robotics<br>
+Games, etc.<br>
+Types of Java Applications<br>
+There are mainly 4 types of applications that can be created using Java programming:<br>
+
+1) Standalone Application<br>
+Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.<br>
+
+2) Web Application<br>
+An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.<br>
+
+3) Enterprise Application<br>
+An application that is distributed in nature, such as banking applications, etc. is called an enterprise application. It has advantages like high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.<br>
+
+4) Mobile Application<br>
+An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.<br>
+
+
+There are 4 platforms or editions of Java:<br>
+
+1) Java SE (Java Standard Edition)<br>
+It is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.<br>
+
+2) Java EE (Java Enterprise Edition)<br>
+It is an enterprise platform that is mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.<br>
+
+3) Java ME (Java Micro Edition)<br>
+It is a micro platform that is dedicated to mobile applications.<br>
+
+4) JavaFX<br>
+It is used to develop rich internet applications. It uses a lightweight user interface API.<br>
+
+Prerequisite<br>
+To learn Java, you must have the basic knowledge of C/C++ programming language.
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.javatpoint.com/java-tutorial"><img id="image1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0?e=2159024400&v=beta&t=VF0bbD5DKkYpGKKLuwvaGm-vO6C1Ko6dayZzyVDptdI"></a><br>
+		<a href="https://www.w3schools.com/java/default.asp"><img id="image2" src="https://www.logolynx.com/images/logolynx/6c/6c9d2db39b1efe9a0ea89ab77b6dcf0c.jpeg"></a><br>
+		<a href="https://www.codesdope.com/course/java-introduction/"><img id="image3" src="https://www.codesdope.com/staticroot/images/so.jpg"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=hBh_CC5y8-s"><img id="image3" style="width:400px" src="https://www.allfreevideotutorials.com/wp-content/uploads/2020/07/1594714667_maxresdefault-600x338.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=grEKMHGYyns"><img id="image3" style="width:400px" src="https://www.freecodecamp.org/news/content/images/2021/03/javabeginners.png"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Effective_Java/BREwDwAAQBAJ?hl=en&gbpv=1&dq=java+books&printsec=frontcover"><img class="book"  src="https://images-na.ssl-images-amazon.com/images/I/41BwPX1hMwL._SY445_QL70_ML2_.jpg"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Core_Java_An_Integrated_Approach_Covers/gwxBt1wHsasC?hl=en&gbpv=1&dq=java+books&printsec=frontcover"><img class="book" src="https://n2.sdlcdn.com/imgs/b/t/2/Core-Java-An-Integrated-Approach-SDL119535275-1-ca15b.jpg"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-SOFTWARE ENGINEERING</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	Software Engineering</h1>
+</div>
+
+<div id="matter">
+
+Software Engineering  delivers basic and advanced concepts of Software Engineering. Software Engineering Tutorial is designed to help beginners and professionals both.<br>
+
+Software Engineering provides a standard procedure to design and develop a software.<br>
+
+ Software Engineering  contains all the topics of Software Engineering like Software Engineering Models, Software Development Life Cycle, Requirement Engineering, Software Design tools, Software Design Strategies, Software Design levels, Software Project Management, Software Management activities, Software Management Tools, Software Testing levels, Software Testing approaches, Quality Assurance Vs. Quality control, Manual Testing, Software Maintenance, Software Re-engineering and Software Development Tool such as CASE Tool.<br>
+
+The term software engineering is the product of two words, software, and engineering.
+
+The software is a collection of integrated programs.
+
+Software subsists of carefully-organized instructions and code written by developers on any of various particular computer languages.
+
+Computer programs and related documentation such as requirements, design models and user manuals.
+
+Engineering is the application of scientific and practical knowledge to invent, design, build, maintain, and improve frameworks, processes, etc.<br>
+
+Software Engineering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures. The result of software engineering is an effective and reliable software product.<br>
+
+Software Engineering is required due to the following reasons:<br>
+
+To manage Large software<br>
+For more Scalability<br>
+Cost Management<br>
+To manage the dynamic nature of software<br>
+For better quality Management<br>
+Need of Software Engineering<br>
+The necessity of software engineering appears because of a higher rate of progress in user requirements and the environment on which the program is working.<br>
+
+Huge Programming: It is simpler to manufacture a wall than to a house or building, similarly, as the measure of programming become extensive engineering has to step to give it a scientific process.<br>
+Adaptability: If the software procedure were not based on scientific and engineering ideas, it would be simpler to re-create new software than to scale an existing one.<br>
+Cost: As the hardware industry has demonstrated its skills and huge manufacturing has let down the cost of computer and electronic hardware. But the cost of programming remains high if the proper process is not adapted.<br>
+Dynamic Nature: The continually growing and adapting nature of programming hugely depends upon the environment in which the client works. If the quality of the software is continually changing, new upgrades need to be done in the existing one.<br>
+Quality Management: Better procedure of software development provides a better and quality software product.<br>
+Characteristics of a good software engineer
+The features that good software engineers should possess are as follows:
+
+Exposure to systematic methods, i.e., familiarity with software engineering principles.
+
+Good technical knowledge of the project range (Domain knowledge).<br>
+
+Good programming abilities.<br>
+
+Good communication skills. These skills comprise of oral, written, and interpersonal skills.
+
+High motivation.
+
+Sound knowledge of fundamentals of computer science.
+
+Intelligence.
+
+Ability to work in a team
+
+Discipline, etc.<br>
+The importance of Software engineering is as follows:<br>
+
+Reduces complexity: Big software is always complicated and challenging to progress. Software engineering has a great solution to reduce the complication of any project. Software engineering divides big problems into various small issues. And then start solving each small issue one by one. All these small problems are solved independently to each other.<br>
+To minimize software cost: Software needs a lot of hardwork and software engineers are highly paid experts. A lot of manpower is required to develop software with a large number of codes. But in software engineering, programmers project everything and decrease all those things that are not needed. In turn, the cost for software productions becomes less as compared to any software that does not use software engineering method.<br>
+To decrease time: Anything that is not made according to the project always wastes time. And if you are making great software, then you may need to run many codes to get the definitive running code. This is a very time-consuming procedure, and if it is not well handled, then this can take a lot of time. So if you are making your software according to the software engineering method, then it will decrease a lot of time.<br>
+Handling big projects: Big projects are not done in a couple of days, and they need lots of patience, planning, and management. And to invest six and seven months of any company, it requires heaps of planning, direction, testing, and maintenance. No one can say that he has given four months of a company to the task, and the project is still in its first stage. Because the company has provided many resources to the plan and it should be completed. So to handle a big project without any problem, the company has to go for a software engineering method.<br>
+Reliable software: Software should be secure, means if you have delivered the software, then it should work for at least its given time or subscription. And if any bugs come in the software, the company is responsible for solving all these bugs. Because in software engineering, testing and maintenance are given, so there is no worry of its reliability.<br>
+Effectiveness: Effectiveness comes if anything has made according to the standards. Software standards are the big target of companies to make it more effective. So Software becomes more effective in the act with the help of software engineering.
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.geeksforgeeks.org/software-engineering/"><img id="image1" src="https://media.geeksforgeeks.org/wp-content/uploads/20190809013546/gfg_350X350.png"></a><br>
+		<a href="https://www.tutorialspoint.com/software_engineering/index.htm"><img id="image2" src="https://www.tutorialspoint.com/bokeh/images/logo.png"></a><br>
+		<a href="https://www.guru99.com/what-is-software-engineering.html"><img id="image3" src="https://tse3.mm.bing.net/th?id=OIP.5v1IpECh73VHttqHoqPAiwHaFX&pid=Api&P=0&w=207&h=151"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/playlist?list=PLbRMhDVUMngf8oZR3DpKMvYhZKga90JVt"><img id="image3" style="width:400px" src="https://i1.wp.com/collegekafunda.com/wp-content/uploads/2020/03/iit-kharagpur.png?w=1200&ssl=1"></a><br>
+		<a href="https://www.youtube.com/watch?v=4b1D1QFEel0&list=PLWPirh4EWFpG2b1L3CL-OAPYcM25jLjXH"><img id="image3" style="width:400px" src="https://tse2.mm.bing.net/th?id=OIP.hRiH8VPR9qwUVltyk8fffQHaEK&pid=Api&P=0&w=316&h=178"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Software_Engineering_For_VTU_8_e/GaRbZtWShxkC?hl=en&gbpv=1&dq=software+engineering+books&printsec=frontcover"><img class="book"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBqyGAn-E8Akd0U8mavouE0RcpuiLSJXb3g&usqp=CAU"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Introduction_to_Software_Engineering/-at-DwAAQBAJ?hl=en&gbpv=1&dq=software+engineering+books&printsec=frontcover"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/41O1KuTFzwL._SX351_BO1,204,203,200_.jpg"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-DBMS</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		.books:hover{
+			background-color: lightblue;
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	Database Management Systems</h1>
+</div>
+
+<div id="matter">
+	
+
+Database Management System or DBMS in short refers to the technology of storing and retrieving usersí data with utmost efficiency along with appropriate security measures. This tutorial explains the basics of DBMS such as its architecture, data models, data schemas, data independence, E-R model, relation model, relational database design, and storage and file structure and much more.<br>
+
+Traditionally, data was organized in file formats. DBMS was a new concept then, and all the research was done to make it overcome the deficiencies in traditional style of data management. A modern DBMS has the following characteristics −<br>
+
+Real-world entity − A modern DBMS is more realistic and uses real-world entities to design its architecture. It uses the behavior and attributes too. For example, a school database may use students as an entity and their age as an attribute.<br>
+
+Relation-based tables − DBMS allows entities and relations among them to form tables. A user can understand the architecture of a database just by looking at the table names.<br>
+
+Isolation of data and application − A database system is entirely different than its data. A database is an active entity, whereas data is said to be passive, on which the database works and organizes. DBMS also stores metadata, which is data about data, to ease its own process.<br>
+
+Less redundancy − DBMS follows the rules of normalization, which splits a relation when any of its attributes is having redundancy in values. Normalization is a mathematically rich and scientific process that reduces data redundancy.<br>
+
+Consistency − Consistency is a state where every relation in a database remains consistent. There exist methods and techniques, which can detect attempt of leaving database in inconsistent state. A DBMS can provide greater consistency as compared to earlier forms of data storing applications like file-processing systems.<br>
+
+Query Language − DBMS is equipped with query language, which makes it more efficient to retrieve and manipulate data. A user can apply as many and as different filtering options as required to retrieve a set of data. Traditionally it was not possible where file-processing system was used.<br>
+
+Applications of DBMS<br>
+Database is a collection of related data and data is a collection of facts and figures that can be processed to produce information.<br>
+
+Mostly data represents recordable facts. Data aids in producing information, which is based on facts. For example, if we have data about marks obtained by all students, we can then conclude about toppers and average marks.<br>
+
+A database management system stores data in such a way that it becomes easier to retrieve, manipulate, and produce information. Following are the important characteristics and applications of DBMS.<br>
+
+ACID Properties − DBMS follows the concepts of Atomicity, Consistency, Isolation, and Durability (normally shortened as ACID). These concepts are applied on transactions, which manipulate data in a database. ACID properties help the database stay healthy in multi-transactional environments and in case of failure.<br>
+
+Multiuser and Concurrent Access − DBMS supports multi-user environment and allows them to access and manipulate data in parallel. Though there are restrictions on transactions when users attempt to handle the same data item, but users are always unaware of them.<br>
+
+Multiple views − DBMS offers multiple views for different users. A user who is in the Sales department will have a different view of database than a person working in the Production department. This feature enables the users to have a concentrate view of the database according to their requirements.<br>
+
+Security − Features like multiple views offer security to some extent where users are unable to access data of other users and departments. DBMS offers methods to impose constraints while entering data into the database and retrieving the same at a later stage. DBMS offers many different levels of security features, which enables multiple users to have different views with different features. For example, a user in the Sales department cannot see the data that belongs to the Purchase department. Additionally, it can also be managed how much data of the Sales department should be displayed to the user. Since a DBMS is not saved on the disk as traditional file systems, it is very hard for miscreants to break the code.
+<br>
+Before you start proceeding with this tutorial, it is recommended that you have a good understanding of basic computer concepts such as primary memory, secondary memory, and data structures and algorithms.<br>
+Database is a collection of related data and data is a collection of facts and figures that can be processed to produce information.<br>
+
+Mostly data represents recordable facts. Data aids in producing information, which is based on facts. For example, if we have data about marks obtained by all students, we can then conclude about toppers and average marks.<br>
+
+A database management system stores data in such a way that it becomes easier to retrieve, manipulate, and produce information.
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://byjus.com/govt-exams/database-management-system-dbms/"><img id="image1" src="https://www.nextbigbrand.in/wp-content/uploads/2020/09/byjus-350x250.png"></a><br>
+		<a href="https://www.javatpoint.com/dbms-tutorial"><img id="image2" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0?e=2159024400&v=beta&t=VF0bbD5DKkYpGKKLuwvaGm-vO6C1Ko6dayZzyVDptdI"></a><br>
+		<a href="https://www.edureka.co/blog/what-is-dbms"><img id="image3" src="https://entrackr.com/wp-content/uploads/2018/06/EDUREKA-1.jpg"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=4cWkVbC2bNE"><img id="image3" style="width:400px" src="https://clipground.com/images/freecodecamp-logo-6.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=AA7i2GcTGwU"><img id="image3" style="width:400px" src="https://static.asianetnews.com/images/01dm0hry8kf0mxmerxassgsd4a/img-6ca135f27d6c6ad14fcd3af0dddb1e31-1546613009584-original--1--jpg_710x400xt.jpg"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Database_Management_System_DBMS_A_Practi/FTUJNA4lLdAC?hl=en&gbpv=1&dq=dbms+book&printsec=frontcover"><img class="book"  src="https://rukminim1.flixcart.com/image/416/416/kjd6nww0-0/book/o/b/y/database-management-systems-dbms-original-imafyxqjbpgpfyer.jpeg?q=70"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Database_Management_Systems/mK4COraJvlIC?hl=en&gbpv=1&dq=dbms+book&printsec=frontcover"><img class="book" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Svan8jGfae8SyVvsrpd_K5rkS0-Jr40y-w&usqp=CAU"></a>   
+	</section>
+</nav>
+</body>
+</html>

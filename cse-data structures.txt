@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-DATA STRUCTURES</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	DATA STRUCTURES</h1>
+</div>
+
+<div id="matter">
+	
+
+Data Structure is a way of collecting and organising data in such a way that we can perform operations on these data in an effective way. Data Structures is about rendering data elements in terms of some relationship, for better organization and storage. For example, we have some data which has, player's name "Virat" and age 26. Here "Virat" is of String data type and 26 is of integer data type.<br>
+
+We can organize this data as a record like Player record, which will have both player's name and age in it. Now we can collect and store player's records in a file or database as a data structure. For example: "Dhoni" 30, "Gambhir" 31, "Sehwag" 33<br>
+
+If you are aware of Object Oriented programming concepts, then a class also does the same thing, it collects different type of data under one single entity. The only difference being, data structures provides for techniques to access and manipulate data efficiently.<br>
+
+In simple language, Data Structures are structures programmed to store ordered data, so that various operations can be performed on it easily. It represents the knowledge of data to be organized in memory. It should be designed and implemented in such a way that it reduces the complexity and increases the efficiency.<br><br>
+
+A computer program is a collection of instructions to perform a specific task. For this, a computer program may need to store data, retrieve data, and perform computations on the data.<br>
+
+A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.<br>
+
+Our DSA tutorial will guide you to learn different types of data structures and algorithms and their implementations in Python, C, C++, and Java.<br>
+
+As applications are getting complex and data rich, there are three common problems that applications face now-a-days.<br>
+
+Data Search :<br> Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.<br>
+
+Processor speed :<br> Processor speed although being very high, falls limited if the data grows to billion records.<br>
+
+Multiple requests :<br> As thousands of users can search data simultaneously on a web server, even the fast server fails while searching the data.<br>
+
+To solve the above-mentioned problems, data structures come to rescue. Data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly.
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.javatpoint.com/data-structure-tutorial"><img id="image1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEwg5FK93uumQ/company-logo_200_200/0?e=2159024400&v=beta&t=VF0bbD5DKkYpGKKLuwvaGm-vO6C1Ko6dayZzyVDptdI"></a><br>
+		<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-851-advanced-data-structures-spring-2012/"><img id="image2" src="https://www.logolynx.com/images/logolynx/3b/3bcdac77ec176dad5c0d2407145a8e3f.jpeg"></a><br>
+		<a href="https://www.geeksforgeeks.org/data-structures/"><img id="image3" src="https://media.geeksforgeeks.org/wp-content/uploads/20190809013546/gfg_350X350.png"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=LcKqYoX8uH4"><img id="image3" style="width:400px" src="https://static.asianetnews.com/images/01dm0hry8kf0mxmerxassgsd4a/img-6ca135f27d6c6ad14fcd3af0dddb1e31-1546613009584-original--1--jpg_710x400xt.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=RBSGKlAvoiM"><img id="image3" style="width:400px" src="https://static.startuptalky.com/2020/10/10-free-code-camp_startupytaky.jpg"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Open_Data_Structures/ZZCJvrDe5bIC?hl=en&gbpv=1&dq=data+structures&printsec=frontcover"><img class="book"  src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347287711i/112264._UY400_SS400_.jpg"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/Data_Structures_and_Algorithms/al0wGpxm-3UC?hl=en&gbpv=1&dq=data+structures+and+algorithms&printsec=frontcover"><img class="book" src="https://cdn01.sapnaonline.com/product_media/9789389520880/md_9789389520880.jpg"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

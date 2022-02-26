@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-OOPS</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		.books:hover{
+			background-color: lightblue;
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	Object Oriented Programming</h1>
+</div>
+
+<div id="matter">
+	
+
+Object-oriented programming has a sweeping impact because it appeals at multiple levels and promises faster and cheaper development and maintenance. It follows a bottom-up approach to develop applications.<br>
+
+
+Object-Oriented Programming<br>
+The word object-oriented is the combination of two words i.e. object and oriented. The dictionary meaning of the object is an article or entity that exists in the real world. The meaning of oriented is interested in a particular kind of thing or entity. In layman's terms, it is a programming pattern that rounds around an object or entity are called object-oriented programming.<br>
+
+The technical definition of object-oriented programming is as follows:<br>
+
+The object-oriented programming is basically a computer programming design philosophy or methodology that organizes/ models software design around data, or objects rather than functions and logic.<br>
+
+An object is referred to as a data field that has unique attributes and behavior. Everything in OOP is grouped as self-sustainable objects.<br>
+
+It is the most popular programming model among developers. It is well suited for programs that are large, complex, and actively updated or maintained. It simplifies software development and maintenance by providing major concepts such as abstraction, inheritance, polymorphism, and encapsulation. These core concepts support OOP.<br>
+
+A real-world example of OOP is the automobile. It more completely illustrates the power of object-oriented design.<br>
+
+Points to Remember
+Everything is an object
+Developer manipulates objects that uses message passing.
+Every object is an instance of a class.
+The class contains the attribute and behavior associated with an object.<br>
+Pillars of OOPs<br>
+The major concepts that we have discussed above are known as pillars of OOPs. There are four pillars on which OOP rests.<br>
+
+Abstraction<br>
+Encapsulation<br>
+Inheritance<br>
+Polymorphism<br>
+In recent years, object-oriented programming has become especially popular in dynamic programming languages. Python, PowerShell, Ruby and Groovy are dynamic languages built on OOP principles, while Perl and PHP have been adding object-oriented features since Perl 5 and PHP 4, and ColdFusion since version 6.<br>
+
+The Document Object Model of HTML, XHTML, and XML documents on the Internet has bindings to the popular JavaScript/ECMAScript language. JavaScript is perhaps the best known prototype-based programming language, which employs cloning from prototypes rather than inheriting from a class (contrast to class-based programming). Another scripting language that takes this approach is Lua.<br>
+The messages that flow between computers to request services in a client-server environment can be designed as the linearizations of objects defined by class objects known to both the client and the server. For example, a simple linearized object would consist of a length field, a code point identifying the class, and a data value. A more complex example would be a command consisting of the length and code point of the command and values consisting of linearized objects representing the command's parameters
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.educative.io/blog/object-oriented-programming"><img id="image1" src="https://tse3.mm.bing.net/th?id=OIP.EqFpx2KtUkLGMLaGo1DV7wHaEK&pid=Api&P=0&w=268&h=151"></a><br>
+		<a href="https://blog.udemy.com/what-is-object-oriented-programming/"><img id="image2" src="https://tse2.mm.bing.net/th?id=OIP.E_8t_EWA-BfOk4Pn-BzKvgHaFj&pid=Api&P=0&w=201&h=152"></a><br>
+		<a href="https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/"><img id="image3" src="https://media.geeksforgeeks.org/wp-content/uploads/20190809013546/gfg_350X350.png"></a>
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=HcpfiA2P8So"><img id="image3" style="width:400px" src="https://tse1.mm.bing.net/th?id=OIP.IC_Dtx-DffOByjz8o1gZ0QHaHa&pid=Api&P=0&w=300&h=300"></a><br>
+		<a href="https://www.youtube.com/watch?v=Ej_02ICOIgs"><img id="image3" style="width:400px" src="https://tse4.mm.bing.net/th?id=OIP.82YwuuaWdR7gvN4O0MpTTwHaFC&pid=Api&P=0&w=250&h=171"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://atomicobject.com/uploads/archive/files/ObjectOrientedProgramming.pdf"><img class="book"  src="https://tse1.mm.bing.net/th?id=OIP.zTOGPLblHNky84iIN6KWVAHaH6&pid=Api&P=0&w=300&h=300"></a>
+		<br>
+		<a href="https://ebooks.lpude.in/management/mba/term_4/DCAP107_DCAP404_OBJECT_ORIENTED_PROGRAMMING.pdf"><img class="book" src="https://tse3.mm.bing.net/th?id=OIP.lFzSV5VJt6-u0E1znJ-enAHaDf&pid=Api&P=0&w=334&h=159"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

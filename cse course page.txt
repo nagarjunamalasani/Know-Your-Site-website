@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>courses in CSE</title>
+	<link rel="icon"  href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+<style type="text/css">
+	body{
+		background-color: #F3EBF6;
+	}
+	#java{
+		width: 85%;
+		height: 85%;
+		border: 5px;
+		border-radius: 5px;
+		margin-top: 20px;
+
+		
+
+	}
+	
+	
+	.search{
+		text-align: center;
+	}
+	header{
+		    position: relative;
+		    z-index: 1;
+		    text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			margin-left: -8px;
+			padding-top: 5px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+			padding-bottom: 5px;
+	}
+	#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 11px;
+			border-radius: 5px;
+		}
+	#course{
+		background-color: #B4CFEC;	
+		padding: 20px;	
+		margin: 50px;
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-right: -10px;
+		padding-left: 40px;
+		padding-bottom: 40px;
+		
+		margin-top: 40px;
+		height: 200px;
+		width: 200px;	
+		display: inline-block;	
+	}
+	#matter{
+		
+		margin-left: 50px;
+		font-size: 150%;
+		font-style: normal;
+		font-family: "times";
+		margin-top: 30px;
+		color: darkblue;
+		
+	}
+	#script{
+		width: 200px;
+		height: 10px;
+	}
+	#section{
+		display: inline-block;
+	}
+
+</style>
+</head>
+
+<body>
+	<header >
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	COURSES IN CSE</h1></header> 
+	<!--<script id="script" async src="https://cse.google.com/cse.js?cx=8168c05241a114d4a" value="search"> </script> <div class="gcse-search"></div>-->
+	<section id="section">
+<div id="course"><a href="CSE-JAVA.html"><img id="java" src="https://zeptosystems.com/wp-content/uploads/2018/10/java-1.jpg"><br><span id="matter">JAVA</span></a></div>
+<div id="course"><a href="C sharp.html"><img id="java" src="https://tse4.mm.bing.net/th/id/OIP.UDt0hoSgLXhcewfPMfatIQHaHa?w=168&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">C sharp</span></a></div>
+<div id="course"><a href="C ++.html"><img id="java" src="https://tse3.mm.bing.net/th/id/OIP.Y_67UPfUMyNAR29IJgE62QHaDr?w=340&h=173&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">C++</span></a></div>
+<div id="course"><a href="cloud computing.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.mTqkwekHONR5JG3WK_xfNwHaE7?w=244&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">Cloud Computing</span></a></div>
+<div id="course"><a href="datastructures.html"><img id="java" src="https://tse3.mm.bing.net/th/id/OIP.kNPKQEfdtq7G0gsPW0jqlQHaHa?w=204&h=203&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">Data Structures</span></a></div>
+<div id="course"><a href="dbms.html"><img id="java" src="https://tse1.mm.bing.net/th/id/OIP.Prbv36z8KcW3stQBW-ggrgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">DBMS</span></a></div>
+<div id="course"><a href="oops.html"><img id="java" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr7YYUQl2QZBoV9w0GVecBxoPPu-WmsAb5pCGPlUnDpOAXdylRh-xnLXSuwRx_ySRT0Sk&usqp=CAU"><br><span id="matter">OOPS</span></a></div>
+<div id="course"><a href="python.html"><img id="java" src="https://tse3.mm.bing.net/th/id/OIP.8mB0JRId2fMaxxmyMOZecAHaIO?w=161&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">Python</span></a></div>
+<div id="course"><a href="html.html"><img id="java" src="https://tse4.mm.bing.net/th/id/OIP.35UyWW5UkqFtM5-2rLScewHaFI?w=264&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">HTML and CSS</span></a></div>
+<div id="course"><a href="js.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ?w=185&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">Javascript</span></a></div>
+<div id="course"><a href="OS.html"><img id="java" src="https://blueakademie.com/pluginfile.php/155/course/overviewfiles/Operating-Systems.png"><br><span id="matter">OS</span></a></div>
+<div id="course"><a href="se.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.NJKiCzULaGpWuZuzATCGlAHaEz?w=269&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">Software Engineering</span></a></div>
+<div id="course"><a href="C.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.MzOhQe99q0ZyDPDaybYe4wHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"><br><span id="matter">C</span></a></div>
+<div id="course"><a href="ai ml.html"><img id="java" src="https://www.rathinamcollege.edu.in/wp-content/uploads/2020/06/Ai-ml-1000x500.png"><br><span id="matter">AI & ML</span></a></div>
+<div id="course"><a href="iot.html"><img id="java" src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f965d43ac32303829f68758%2FThe-5-Biggest-Internet-Of-Things--IoT--Trends-In-2021-Everyone-Must-Get-Ready-For-Now%2F960x0.jpg%3Ffit%3Dscale"><br><span id="matter">Internet of Things</span></a></div>
+<div id="course"><a href="sda.html"><img id="java" src="http://storage.ning.com/topology/rest/1.0/file/get/3124841026?profile=original"><br><span id="matter"> Software Design and Architecture</span></a></div>
+</section>
+</body>
+</html>

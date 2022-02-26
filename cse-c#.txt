@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSE-C SHARP</title>
+	<link rel="icon" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		
+		#header{
+			text-align: center;
+			font-family: "times";
+			font-style: normal;
+			font-variant: small-caps;
+			color: #EEA47FFF;
+			margin-top: -10px;
+			margin-left: -15px;
+			position: relative;
+			margin-left: -8px;
+			padding-top: 0.25px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+
+		}
+		#kys{
+			width: 40px;
+			height: 40px;
+			float: left;
+		}
+		#kys:hover{
+			background-color: #EEA47FFF;
+			padding: 7px;
+			border-radius: 5px;
+		}
+		
+		div{
+			font-family: "times new roman";
+			font-size: 150%;
+			font-style: normal;
+
+		}
+		nav{
+			display: inline-block;
+			float: left;
+
+
+		}
+		
+		
+		.file{
+			float: left;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: 75px;
+			margin-right: 75px;
+
+		}
+		#image1{
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+			border: solid 2px black;
+		}
+		#image2{
+
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+		}
+		#image3{
+			width: 200px;
+			height: 200px;
+			border: solid 2px gray;
+			border-radius: 4px;
+			margin: 5px;
+			padding-top: 5px;
+			padding-left: 4px;
+			padding-bottom: 6px;
+			border-radius: 5px;
+
+		}
+		h2{
+			
+			color: #3F51B5;
+			font-variant: small-caps;
+			font-size: 200%;
+		}
+		#video{
+			
+		}
+		.book{
+			width: 225px;
+			height: 225px ;
+			border-radius: 5px;
+			position: relative;
+			border: solid 2px black;
+			margin-left: 100px;
+			margin-right: -80px;
+
+
+		}
+		#matter{
+			border:solid #00539CFF 4px;
+			border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding: 10px;
+			font-size: 130%;
+			font-family: "times"
+
+		}
+		#back{
+
+         border:solid #00539CFF 4px;
+         border-radius: 12px;
+			margin-left: 30px;
+			margin-right: 30px;
+			margin-top: 25px;
+			padding-right: 100px;
+
+			
+		}
+
+	</style>
+
+</head>
+<body>
+     <div id="header">
+	<h1><a href="main.html"><img id="kys" src="https://vectorified.com/images/home-icon-white-2.png"></a>
+	C Sharp( C# )</h1>
+</div>
+
+<div id="matter">
+
+
+ Our C# tutorial is designed for beginners and professionals.
+
+C# is a programming language of .Net Framework.<br>
+
+Our C# tutorial includes all topics of C# such as first example, control statements, objects and classes, inheritance, constructor, destructor, this, static, sealed, polymorphism, abstraction, abstract class, interface, namespace, encapsulation, properties, indexer, arrays, strings, regex, exception handling, multithreading, File IO, Collections etc.<br>
+
+
+C# is pronounced as "C-Sharp". It is an object-oriented programming language provided by Microsoft that runs on .Net Framework.
+
+By the help of C# programming language, we can develop different types of secured and robust applications:<br>
+
+Window applications<br>
+Web applications<br>
+Distributed applications<br>
+Web service applications<br>
+Database applications etc.<br>
+C# is approved as a standard by ECMA and ISO. C# is designed for CLI (Common Language Infrastructure). CLI is a specification that describes executable code and runtime environment.<br>
+
+C# programming language is influenced by C++, Java, Eiffel, Modula-3, Pascal etc. languages.<br>
+By design, C# is the programming language that most directly reflects the underlying Common Language Infrastructure (CLI). Most of its intrinsic types correspond to value-types implemented by the CLI framework. However, the language specification does not state the code generation requirements of the compiler: that is, it does not state that a C# compiler must target a Common Language Runtime, or generate Common Intermediate Language (CIL), or generate any other specific format. Theoretically, a C# compiler could generate machine code like traditional compilers of C++ or Fortran<br>C# supports strongly, implicitly typed variable declarations with the keyword var, and implicitly typed arrays with the keyword new[] followed by a collection initializer.<br>
+
+C# supports a strict Boolean data type, bool. Statements that take conditions, such as while and if, require an expression of a type that implements the true operator, such as the Boolean type. While C++ also has a Boolean type, it can be freely converted to and from integers, and expressions such as if (a) require only that a is convertible to bool, allowing a to be an int, or a pointer. C# disallows this "integer meaning true or false" approach, on the grounds that forcing programmers to use expressions that return exactly bool can prevent certain types of programming mistakes such as if (a = b) (use of assignment = instead of equality ==).<br>
+
+C# is more type safe than C++. The only implicit conversions by default are those that are considered safe, such as widening of integers. This is enforced at compile-time, during JIT, and, in some cases, at runtime. No implicit conversions occur between Booleans and integers, nor between enumeration members and integers (except for literal 0, which can be implicitly converted to any enumerated type). Any user-defined conversion must be explicitly marked as explicit or implicit, unlike C++ copy constructors and conversion operators, which are both implicit by default.<br>
+
+C# has explicit support for covariance and contravariance in generic types, unlike C++ which has some degree of support for contravariance simply through the semantics of return types on virtual methods.
+<br>
+Enumeration members are placed in their own scope.
+
+The C# language does not allow for global variables or functions. All methods and members must be declared within classes. Static members of public classes can substitute for global variables and functions.<br>
+
+Local variables cannot shadow variables of the enclosing block, unlike C and C++
+</div>
+<nav id="back">
+
+	<section class="file">
+
+		<h2>Website links</h2>
+
+		<a href="https://www.geeksforgeeks.org/csharp-programming-language/"><img id="image1" src="https://media.geeksforgeeks.org/wp-content/uploads/20190809013546/gfg_350X350.png"></a><br>
+		<a href="https://www.w3schools.com/cs/index.php"><img id="image2" src="https://tse4.mm.bing.net/th?id=OIP.QqUGIaLFVJf0ldmG69ndlgHaHZ&pid=Api&P=0&w=300&h=300"></a><br>
+		
+
+
+	</section>
+
+	<section class="file">
+
+		<h2 style="margin-left: 60px;">Youtube video links</h2>
+		<a href="https://www.youtube.com/watch?v=GhQdlIFylQ8"><img id="image3" style="width:400px" src="https://clipground.com/images/freecodecamp-logo-6.jpg"></a><br>
+		<a href="https://www.youtube.com/watch?v=GaNgIX_1yqE"><img id="image3" style="width:400px" src="https://tse4.mm.bing.net/th?id=OIP.vgKy3TKt5QHwAGfBBTcTjgHaEK&pid=Api&P=0&w=288&h=163"></a>
+	</section>
+
+	<section class="file">
+
+		<h2 style="text-align: right;">Books</h2>
+
+		<a href="https://www.google.co.in/books/edition/Programming_C_8_0/yU7ADwAAQBAJ?hl=en&gbpv=1&dq=c+sharp+books&printsec=frontcover"><img class="book"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWtzgQDTegpwDsUtq6q6bbO2bwbR8pCD-TCA&usqp=CAU"></a>
+		<br>
+		<a href="https://www.google.co.in/books/edition/C_in_Depth/cTczEAAAQBAJ?hl=en&gbpv=1&dq=c+sharp+books&printsec=frontcover"><img class="book" src="data:image/jpeg;base64,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"></a>
+
+
+       
+	</section>
+</nav>
+</body>
+</html>

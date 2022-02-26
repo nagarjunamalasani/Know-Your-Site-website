@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>knowyoursite</title>
+	<link rel="stylesheet" type="text/css" href="https://www.logolynx.com/images/logolynx/81/81cb72f4189cde4f56568ca516421f02.jpeg">
+	<style type="text/css">
+		body{
+			background-color: #F3EBF6;
+		}
+		header{
+			position: relative ;
+			z-index: 1;
+
+			display: inline-block;
+			margin-left: -8px;
+			padding-top: 25px;
+			margin-top: -8px;
+			background-color: #00539CFF;
+			margin-right: -19px;
+		}
+
+		
+		#java{
+			border-radius: 15px;
+			background-color:#B4CFEC;
+            padding: 30px;
+
+			margin: 30px;
+			position: relative;
+			width: 12%;
+			height: 12%;
+			margin-left: 100px;
+			margin-right: 8.2px;
+			margin-bottom: 40px;
+
+		}
+		
+		
+		h1{
+			font-family: "times";
+			font-variant: small-caps;
+			font-style: oblique;
+			color: #EEA47FFF;
+			text-align: center;
+			font-size: 260%;
+			margin-left: 200px;
+			padding-left: 200px;
+		}
+		#myDIV {
+  height: 250px;
+  width: 250px;
+  overflow: auto;
+}
+
+#content {
+  height: 800px;
+  width: 2000px;
+  background-color: coral;
+}
+#profile{
+	width: 3%;
+	height: 3%;
+	border-radius: 5%;
+	float: right;
+	margin-left: 500px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+h1{
+	text-align: center;
+	margin-top: -2px;
+	margin-left: 350px;
+}
+#menu{
+	width: 3%;
+	height: 3%;
+	border-radius: 5%;
+	float: left;
+	margin-left: -2px;
+	padding-left: 10px;
+	padding-right: -5px;
+
+
+}
+#menu:hover{
+	background-color:  #EEA47FFF;
+	padding: 13px;
+
+
+}
+#profile:hover{
+	background-color: #EEA47FFF;
+		padding: 13px;
+}
+h2{
+	color: #00539CFF;
+	font-style: normal;
+	font-family: "times";
+	font-variant: small-caps;
+	font-size:200%;
+}
+#Recommendations{
+
+}
+		
+	</style>
+</head>
+<body>
+<header>
+	<div id="profileee">
+	<a href="#menu" ><img id="menu" src="https://www.pinclipart.com/picdir/big/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png"></a></div>
+	
+	<a href="login.html" ><img id="profile" src="https://icon-library.com/images/profile-icon-white/profile-icon-white-7.jpg"></a>
+	<h1>Know Your Site</h1>
+</header>
+<section >
+
+	<nav >
+
+		<a href="CSE.html"><img id="java" src="https://www.sharda.ac.in/blog/wp-content/uploads/2020/03/Image-1.jpg"></a>
+		<a href="test.html"><img id="java" src="https://topprnotes.com/wp-content/uploads/2018/08/Electronics-and-Communication-Engineering-1280x720.png"></a>
+		<a href="test.html"><img id="java" style="height: 100px" src="https://cdn.stumagz.com/images/579244a4f174cstryimg"></a>
+		<a href="test.html"><img id="java" style="height: 100px;" src="https://armiet.in/wp-content/uploads/2020/03/B1P1.jpeg"></a>
+	</nav>
+</section>
+<section id="Recommendations">
+	<h2>Recommendations</h2>
+	
+<a href="js.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ?w=185&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+<a href="python.html"><img id="java" src="https://tse3.mm.bing.net/th/id/OIP.8mB0JRId2fMaxxmyMOZecAHaIO?w=161&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+<a href="bdms.html"><img id="java" src="https://tse1.mm.bing.net/th/id/OIP.Prbv36z8KcW3stQBW-ggrgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+<a href="java.html"><img id="java" src="https://zeptosystems.com/wp-content/uploads/2018/10/java-1.jpg"></a>
+
+	</nav>
+</section>
+<section>
+	<h2>Most viewed</h2>
+	<nav>
+		<a href="python.html"><img id="java" src="https://tse3.mm.bing.net/th/id/OIP.8mB0JRId2fMaxxmyMOZecAHaIO?w=161&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+<a href="java.html"><img id="java" src="https://zeptosystems.com/wp-content/uploads/2018/10/java-1.jpg"></a>
+<a href="js.html"><img id="java" src="https://tse2.mm.bing.net/th/id/OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ?w=185&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+<a href="bdms.html"><img id="java" src="https://tse1.mm.bing.net/th/id/OIP.Prbv36z8KcW3stQBW-ggrgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"></a>
+    </nav>
+</section>
+</body>
+</html>
